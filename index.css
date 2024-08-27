@@ -1,0 +1,40 @@
+* {
+  background-color: pink;
+}
+#heading {
+  text-align: center;
+}
+#input-text,
+#text {
+  font-size: 13px;
+  padding: 10px 5px;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+}
+
+#button-delete {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: rgb(207, 73, 73);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#button {
+  padding: 12px 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(7, 112, 7);
+}
